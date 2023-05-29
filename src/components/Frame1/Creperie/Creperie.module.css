@@ -1,0 +1,21 @@
+.root {
+  position: absolute;
+  left: calc(50% - 694px);
+  top: calc(50% - 492px);
+  width: 24px;
+  height: 24px;
+  align-items: flex-start;
+  transform: translate(-50%, -50%);
+}
+.union {
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 14px;
+  height: 20px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
