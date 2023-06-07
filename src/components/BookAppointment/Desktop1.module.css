@@ -1,0 +1,434 @@
+.arrowBottomNormal.arrowBottomNormal {
+  left: 925px;
+  top: 417px;
+}
+.arrowBottomNormal2.arrowBottomNormal2 {
+  left: 925px;
+  top: 502px;
+}
+.arrowBottomNormal3.arrowBottomNormal3 {
+  left: 924px;
+  top: 763px;
+}
+.root {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.appointmentDetails {
+  color: #fff;
+  font-size: 64px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 412px;
+  top: 12px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.name {
+  color: #000;
+  font-size: 32px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 310px;
+  top: 221px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.email {
+  color: #000;
+  font-size: 32px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 319px;
+  top: 319px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.email2 {
+  color: #000;
+  font-size: 32px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 319px;
+  top: 319px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.serviceType {
+  color: #000;
+  font-size: 32px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 202px;
+  top: 425px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.expert {
+  color: #000;
+  font-size: 32px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 299px;
+  top: 501px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.dateOfAppointment {
+  color: #000;
+  font-size: 32px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 77px;
+  top: 586px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.chosenTime {
+  color: #000;
+  font-size: 32px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 200px;
+  top: 678px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.location {
+  color: #000;
+  font-size: 32px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 269px;
+  top: 763px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle2 {
+  position: absolute;
+  left: 427px;
+  top: 223px;
+  width: 561px;
+  height: 37px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+.rectangle3 {
+  position: absolute;
+  left: 427px;
+  top: 313px;
+  width: 561px;
+  height: 37px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+.rectangle4 {
+  position: absolute;
+  left: 427px;
+  top: 419px;
+  width: 561px;
+  height: 37px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+.rectangle9 {
+  position: absolute;
+  left: 427px;
+  top: 501px;
+  width: 561px;
+  height: 37px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+.rectangle5 {
+  position: absolute;
+  left: 427px;
+  top: 586px;
+  width: 561px;
+  height: 37px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+.rectangle7 {
+  position: absolute;
+  left: 427px;
+  top: 678px;
+  width: 561px;
+  height: 37px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+.rectangle8 {
+  position: absolute;
+  left: 427px;
+  top: 764px;
+  width: 561px;
+  height: 37px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+.rectangle6 {
+  position: absolute;
+  left: 223px;
+  top: 867px;
+  width: 994px;
+  height: 104px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+.confirmAppointment {
+  color: #000;
+  font-size: 60px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 412px;
+  top: 882px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.line1 {
+  transform-origin: bottom left;
+  position: absolute;
+  left: 930px;
+  top: 455px;
+  width: 37px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #000;
+  margin-bottom: -1px;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+.line2 {
+  transform-origin: bottom left;
+  position: absolute;
+  left: 930px;
+  top: 800px;
+  width: 37px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #000;
+  margin-bottom: -1px;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+.line3 {
+  transform-origin: bottom left;
+  position: absolute;
+  left: 930px;
+  top: 537px;
+  width: 37px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #000;
+  margin-bottom: -1px;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+
+
+.services {
+  color: #fff;
+  font-size: 64px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 592px;
+  top: 11px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle1 {
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 1440px;
+  height: 100px;
+  background-color: #808080;
+}
+.bookAppointment2 {
+  color: #000;
+  font-size: 64px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 439px;
+  top: 11px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle10 {
+  position: absolute;
+  left: 1026px;
+  top: 35px;
+  width: 200px;
+  height: 39px;
+  border-radius: 20px;
+  background-color: #000;
+}
+.ourExperts2 {
+  color: #fff;
+  font-size: 24px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1055px;
+  top: 41px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle16 {
+  position: absolute;
+  left: 36px;
+  top: 34px;
+  width: 136px;
+  height: 39px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.home {
+  color: #fff;
+  font-size: 24px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 71px;
+  top: 39px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle15 {
+  position: absolute;
+  left: 213px;
+  top: 34px;
+  width: 184px;
+  height: 39px;
+  border-radius: 20px;
+  background-color: #000;
+}
+.services2 {
+  color: #fff;
+  font-size: 24px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 256px;
+  top: 38px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle17 {
+  position: absolute;
+  left: 1259px;
+  top: 34px;
+  width: 131px;
+  height: 39px;
+  border-radius: 20px;
+  background-color: #000;
+}
+.aboutUs {
+  color: #fff;
+  font-size: 24px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1272px;
+  top: 38px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
