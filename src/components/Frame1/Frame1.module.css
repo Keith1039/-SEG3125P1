@@ -82,7 +82,9 @@
   width: 1440px;
   height: 734px;
   border-radius: 20px;
+  background-image: /* webpackIgnore: true */ url('/assets/cool_umbrella.jpg');
   background-color: #808080;
+  
 }
 .image3 {
   position: absolute;

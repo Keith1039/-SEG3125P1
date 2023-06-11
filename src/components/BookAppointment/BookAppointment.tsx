@@ -24,6 +24,7 @@ export function BookAppointment(props: Props) {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [booked, setBooking] = useState(false)
+  const [location, setLocation] = useState("")
 
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
@@ -103,7 +104,20 @@ export function BookAppointment(props: Props) {
         />
       </form>
       </div>
-      <div className={classes.rectangle8}></div>
+        <div className={classes.rectangle8}>
+          <form>
+            <select 
+            value={location}
+            onChange={(e) => setLocation(e.target.value)}
+            >
+              <option></option>
+              <option>1978 St Umbra Street</option>
+              <option>996 Oak Lane</option>
+              <option>2060 Diane Street</option>
+            </select>
+          </form>
+        </div>
+      
       <button onClick={ name != "" && email != "" && props.date != "" && props.service != "" && props.time != "" && booked == false ? () => setBooking(true): () => setBooking(booked)}>
         <div className={classes.rectangle6}></div>
         <div className={classes.confirmAppointment}>{booked ? "Appointment Booked!":"Confirm appointment"} </div>

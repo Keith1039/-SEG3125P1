@@ -258,6 +258,14 @@
   border-radius: 20px;
   background-color: #d9d9d9;
 }
+.rectangle8 select {
+  width: 561px;
+  padding: 0px 10px;
+  display: block;
+  font-size: 30px;
+  border-radius:11px;
+  box-sizing: border-box;
+}
 .rectangle6 {
   position: absolute;
   left: 223px;

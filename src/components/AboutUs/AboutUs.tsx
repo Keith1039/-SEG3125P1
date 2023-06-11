@@ -35,9 +35,9 @@ export function AboutUs() {
       <div className={classes._1978StUmbraStreet}>1978 St Umbra Street</div>
       <div className={classes.loremIpsumDolorSitAmetConsecte}>
         <div className={classes.textBlock}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore{' '}
+          K corp is the premier name in umbrella modification and repairs. Using techniques refined since{' '}
         </div>
-        <div className={classes.textBlock2}>et dolore magna aliqua. Ut enim ad</div>
+        <div className={classes.textBlock2}>1896, we strive to make sure you walk out satisfied with our service.</div>
       </div>
       <div className={classes.weProvideUmbrellaRepairModific}>
         We provide umbrella repair, modification and custom orders. We strongly believe that umbrellas are life

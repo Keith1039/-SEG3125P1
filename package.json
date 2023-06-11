@@ -2,7 +2,6 @@
   "name": "vite-react-ts",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Keith1039.github.io/-SEG3125P1/",
   "scripts": {
     "start": "vite",
     "dev": "vite",
