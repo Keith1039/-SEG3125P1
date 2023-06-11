@@ -8,23 +8,15 @@ import { Rectangle16Icon } from './Rectangle16Icon.js';
 
 interface Props {
   className?: string;
-  setname: Function;
+  setexpert: Function;
+  service: string
 }
+
 /* @figmaId 127:95 */
 export function OurExperts (props: Props) {
-  const setTony = () => {
-    //localStorage.setItem("name",  "tony");
-    props.setname("Tony")
-    console.log("tony")
-  } 
-  const setElon = () => {
-    props.setname("Elon")
-    console.log("Elon")
-  }   
-  const setAmanda = () => {
-    props.setname("Amanda")
-    console.log("Amanda")
-  } 
+  const setExpert =(name:String) => {
+    props.setexpert(name);
+  }
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
       <div className={classes.rectangle2}></div>
@@ -45,15 +37,15 @@ export function OurExperts (props: Props) {
       </div>
       <div className={classes.tonyStark}>Tony Stark</div>
       <div className={classes.amandaRipley}>Amanda Ripley</div>
-      <Link to="/Services" onClick={setTony}>
+      <Link to={props.service =="" ? "/Services": "/BookAppointment"} onClick={() => setExpert("Tony")}>
         <div className={classes.rectangle5}></div>
         <ArrowRightLarge className={classes.arrowRightLarge} />
       </Link>
-      <Link to="/Services" onClick={setElon}>
+      <Link to={props.service =="" ? "/Services": "/BookAppointment"} onClick={() => setExpert("Elon")}>
         <div className={classes.rectangle6}></div>
         <ArrowRightLarge className={classes.arrowRightLarge3} />
       </Link>
-      <Link to="/Services" onClick={setAmanda}>
+      <Link to={props.service =="" ? "/Services": "/BookAppointment"} onClick={() => setExpert("Amanda")}>
         <div className={classes.rectangle7}></div>
         <ArrowRightLarge className={classes.arrowRightLarge2} />
       </Link>
@@ -102,7 +94,7 @@ export function OurExperts (props: Props) {
         <div className={classes.storerect}></div>
         <div className={classes.storehours}> Store Hours </div>
       </Link>
-      <Link to="Services">
+      <Link to="/Services">
         <div className={classes.rectangle15}></div>
         <div className={classes.services2}>Services</div>
       </Link>

@@ -8,15 +8,18 @@ import { Rectangle16Icon } from './Rectangle16Icon.js';
 
 interface Props {
   className?: string;
-  name: string;
+  expert: string;
+  setservice: Function
 }
 
 /*props.name*/
 /* @figmaId 121:36 */
 export function Services(props: Props) {
+  const setService = (service: String) => {
+    props.setservice(service)
+  }
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
-      <div className={classes.services}>Services</div>
       <div className={classes.rectangle2}></div>
       <div className={classes.rectangle3}></div>
       <div className={classes.repair}>Repair</div>
@@ -26,15 +29,21 @@ export function Services(props: Props) {
       <div className={classes.image1}></div>
       <div className={classes.image3}></div>
       <div className={classes.image4}></div>
-      <div className={classes.rectangle5}></div>
-      <div className={classes.rectangle6}></div>
-      <div className={classes.rectangle7}></div>
       <div className={classes.priceRange6080}>Price range: 60$ - 80$</div>
       <div className={classes.priceRange20100}>Price range: 20$ - 100$</div>
       <div className={classes.priceRangeDepends}>Price range: *Depends*</div>
-      <ArrowRightLarge />
-      <ArrowRightLarge className={classes.arrowRightLarge} />
-      <ArrowRightLarge className={classes.arrowRightLarge2} />
+      <Link to={props.expert =="" ? "/OurExperts": "/BookAppointment"} onClick={() => setService("Modifications")}>
+        <div className={classes.rectangle5}></div>
+        <ArrowRightLarge />
+      </Link>
+      <Link to={props.expert =="" ? "/OurExperts": "/BookAppointment"} onClick={() => setService("Repair")}>
+        <div className={classes.rectangle6}></div>
+        <ArrowRightLarge className={classes.arrowRightLarge} />
+      </Link>
+      <Link to={props.expert =="" ? "/OurExperts": "/BookAppointment"} onClick={() => setService("Custom Order")}>
+        <div className={classes.rectangle7}></div>
+        <ArrowRightLarge className={classes.arrowRightLarge2} />
+      </Link>
       <div className={classes.rectangle1}></div>
       <div className={classes.ourServices}>Our Services</div>
       <div className={classes.rectangle10}></div>

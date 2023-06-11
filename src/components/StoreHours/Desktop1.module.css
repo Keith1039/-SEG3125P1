@@ -449,7 +449,7 @@
   box-shadow: 0px 8px 24px 0px #00000021;
 }
 .month {
-  width: 379px;
+  width: 200px;
   height: min-content;
   place-content: space-between;
   align-items: center;
@@ -514,7 +514,7 @@
   height: min-content;
   place-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 43px;
 }
 .day {
   width: 45px;
@@ -690,30 +690,54 @@
 .rectangle4 {
   position: absolute;
   left: 411px;
-  top: 834px;
-  width: 166px;
-  height: 35px;
+  top: 825px;
+  width: 200px;
+  height: 45px;
   border-radius: 20px;
   background-color: #000;
+}
+.time1 {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 411px;
+  top: 834px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
 }
 .rectangle5 {
   position: absolute;
   left: 678px;
-  top: 834px;
-  width: 166px;
-  height: 35px;
+  top: 825px;
+  width: 200px;
+  height: 45px;
   border-radius: 20px;
   background-color: #000;
 }
-.rectangle6 {
+.time2 {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
   position: absolute;
-  left: 942px;
+  left: 690px;
   top: 834px;
-  width: 166px;
-  height: 35px;
-  border-radius: 20px;
-  background-color: #000;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
 }
+
 .rectangle7 {
   position: absolute;
   left: 1193px;
@@ -928,6 +952,30 @@
   height: min-content;
   text-align: center;
   align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+.rectangle6 {
+  position: absolute;
+  left: 20px;
+  top: 800px;
+  width: 300px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+.confirmAppointment {
+  color: #000;
+  font-size: 29px;
+  font-style: italic;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 830px;
+  width: min-content;
+  height: min-content;
   white-space: nowrap;
   flex-direction: column;
 }

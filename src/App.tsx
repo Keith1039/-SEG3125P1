@@ -15,17 +15,19 @@ interface Props {
   className?: string;
 }
 export const App: FC<Props> = memo(function App(props = {}) {
-  const [name, setName] = useState("");
-  const [name2, setName2] = useState("")
+  const [expert, setExpert] = useState("");
+  const [service, setService] = useState("")
+  const [date, setDate] = useState("")
+  const [time, setTime] = useState("")
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage/>}></Route>
         <Route path="/AboutUs" element={<AboutUs/>}></Route>
-        <Route path="/Services" element={<Services name={name}/>}></Route>
-        <Route path="/OurExperts" element={<OurExperts setname={setName} />}></Route>
-        <Route path="/BookAppointment" element={<BookAppointment/>}></Route>
-        <Route path="/StoreHours" element={<OurHours/>}></Route>
+        <Route path="/Services" element={<Services expert={expert} setservice={setService}/>}></Route>
+        <Route path="/OurExperts" element={<OurExperts setexpert={setExpert} service={service}/>}></Route>
+        <Route path="/BookAppointment" element={<BookAppointment date={date} setdate={setDate} time={time} settime={setTime} service={service} setservice={setService} expert={expert} setexpert={setExpert}/>}></Route>
+        <Route path="/StoreHours" element={<OurHours date={date} time={time} setdate={setDate} settime={setTime}/>}></Route>
       </Routes>
     </BrowserRouter>
   );

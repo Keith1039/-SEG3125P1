@@ -1,15 +1,4 @@
-.arrowBottomNormal.arrowBottomNormal {
-  left: 925px;
-  top: 417px;
-}
-.arrowBottomNormal2.arrowBottomNormal2 {
-  left: 925px;
-  top: 502px;
-}
-.arrowBottomNormal3.arrowBottomNormal3 {
-  left: 924px;
-  top: 763px;
-}
+
 .root {
   position: relative;
   width: 1440px;
@@ -171,6 +160,13 @@
   border-radius: 20px;
   background-color: #d9d9d9;
 }
+.rectangle2 input {
+  width: 561px;
+  padding: 6px 10px;
+  display: block;
+  font-size: 30px;
+  border-radius:11px;
+}
 .rectangle3 {
   position: absolute;
   left: 427px;
@@ -179,6 +175,13 @@
   height: 37px;
   border-radius: 20px;
   background-color: #d9d9d9;
+}
+.rectangle3 input {
+  width: 561px;
+  padding: 6px 10px;
+  display: block;
+  font-size: 30px;
+  border-radius:11px;
 }
 .rectangle4 {
   position: absolute;
@@ -189,6 +192,14 @@
   border-radius: 20px;
   background-color: #d9d9d9;
 }
+.rectangle4 select {
+  width: 561px;
+  padding: 0px 10px;
+  display: block;
+  font-size: 30px;
+  border-radius:11px;
+  box-sizing: border-box;
+}
 .rectangle9 {
   position: absolute;
   left: 427px;
@@ -197,6 +208,14 @@
   height: 37px;
   border-radius: 20px;
   background-color: #d9d9d9;
+}
+.rectangle9 select {
+  width: 561px;
+  padding: 0px 10px;
+  display: block;
+  font-size: 30px;
+  border-radius:11px;
+  box-sizing: border-box;
 }
 .rectangle5 {
   position: absolute;
@@ -207,6 +226,13 @@
   border-radius: 20px;
   background-color: #d9d9d9;
 }
+.rectangle5 input {
+  width: 561px;
+  padding: 6px 10px;
+  display: block;
+  font-size: 30px;
+  border-radius:11px;
+}
 .rectangle7 {
   position: absolute;
   left: 427px;
@@ -215,6 +241,13 @@
   height: 37px;
   border-radius: 20px;
   background-color: #d9d9d9;
+}
+.rectangle7 input {
+  width: 561px;
+  padding: 6px 10px;
+  display: block;
+  font-size: 30px;
+  border-radius:11px;
 }
 .rectangle8 {
   position: absolute;
@@ -247,45 +280,6 @@
   height: min-content;
   white-space: nowrap;
   flex-direction: column;
-}
-.line1 {
-  transform-origin: bottom left;
-  position: absolute;
-  left: 930px;
-  top: 455px;
-  width: 37px;
-  max-width: 100%;
-  height: 0;
-  max-height: 100%;
-  border-bottom: solid 1px #000;
-  margin-bottom: -1px;
-  transform: matrix(0, -1, 1, 0, 0, 0);
-}
-.line2 {
-  transform-origin: bottom left;
-  position: absolute;
-  left: 930px;
-  top: 800px;
-  width: 37px;
-  max-width: 100%;
-  height: 0;
-  max-height: 100%;
-  border-bottom: solid 1px #000;
-  margin-bottom: -1px;
-  transform: matrix(0, -1, 1, 0, 0, 0);
-}
-.line3 {
-  transform-origin: bottom left;
-  position: absolute;
-  left: 930px;
-  top: 537px;
-  width: 37px;
-  max-width: 100%;
-  height: 0;
-  max-height: 100%;
-  border-bottom: solid 1px #000;
-  margin-bottom: -1px;
-  transform: matrix(0, -1, 1, 0, 0, 0);
 }
 
 

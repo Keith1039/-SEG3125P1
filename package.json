@@ -2,7 +2,10 @@
   "name": "vite-react-ts",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Keith1039.github.io/-SEG3125P1",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "vite",
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,6 +13,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.0",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.11.2",
