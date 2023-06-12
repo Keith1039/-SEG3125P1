@@ -29,6 +29,11 @@ export function Services(props: Props) {
       <div className={classes.image1}></div>
       <div className={classes.image3}></div>
       <div className={classes.image4}></div>
+      <div className={classes.modificationText}>Modifications is a service that allows the expert to make slight changes to your</div>
+      <div className={classes.modificationText2}>umbrella. This can be as simple as changing a part out to adding new features.</div>
+      <div className={classes.repairText}> Repairs are as the name suggest. We take a broken umbrella and fix it for you.</div>
+      <div className={classes.customText}> This is a special service where the customer gives us a guideline of what they want</div>
+      <div className={classes.customText2}> and we turn that dream into reality. Of course, some dreams cost more than others</div>
       <div className={classes.priceRange6080}>Price range: 60$ - 80$</div>
       <div className={classes.priceRange20100}>Price range: 20$ - 100$</div>
       <div className={classes.priceRangeDepends}>Price range: *Depends*</div>
