@@ -37,15 +37,15 @@ export function OurExperts (props: Props) {
       </div>
       <div className={classes.tonyStark}>Tony Stark</div>
       <div className={classes.amandaRipley}>Amanda Ripley</div>
-      <Link to={props.service =="" ? "/Services": "/BookAppointment"} onClick={() => setExpert("Tony")}>
+      <Link to={props.service =="" ? "/Services": "/StoreHours"} onClick={() => setExpert("Tony")}>
         <div className={classes.rectangle5}></div>
         <ArrowRightLarge className={classes.arrowRightLarge} />
       </Link>
-      <Link to={props.service =="" ? "/Services": "/BookAppointment"} onClick={() => setExpert("Elon")}>
+      <Link to={props.service =="" ? "/Services": "/StoreHours"} onClick={() => setExpert("Elon")}>
         <div className={classes.rectangle6}></div>
         <ArrowRightLarge className={classes.arrowRightLarge3} />
       </Link>
-      <Link to={props.service =="" ? "/Services": "/BookAppointment"} onClick={() => setExpert("Amanda")}>
+      <Link to={props.service =="" ? "/Services": "/StoreHours"} onClick={() => setExpert("Amanda")}>
         <div className={classes.rectangle7}></div>
         <ArrowRightLarge className={classes.arrowRightLarge2} />
       </Link>

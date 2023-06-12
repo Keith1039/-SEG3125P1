@@ -32,15 +32,15 @@ export function Services(props: Props) {
       <div className={classes.priceRange6080}>Price range: 60$ - 80$</div>
       <div className={classes.priceRange20100}>Price range: 20$ - 100$</div>
       <div className={classes.priceRangeDepends}>Price range: *Depends*</div>
-      <Link to={props.expert =="" ? "/OurExperts": "/BookAppointment"} onClick={() => setService("Modifications")}>
+      <Link to={props.expert =="" ? "/OurExperts": "/StoreHours"} onClick={() => setService("Modifications")}>
         <div className={classes.rectangle5}></div>
         <ArrowRightLarge />
       </Link>
-      <Link to={props.expert =="" ? "/OurExperts": "/BookAppointment"} onClick={() => setService("Repair")}>
+      <Link to={props.expert =="" ? "/OurExperts": "/StoreHours"} onClick={() => setService("Repair")}>
         <div className={classes.rectangle6}></div>
         <ArrowRightLarge className={classes.arrowRightLarge} />
       </Link>
-      <Link to={props.expert =="" ? "/OurExperts": "/BookAppointment"} onClick={() => setService("Custom Order")}>
+      <Link to={props.expert =="" ? "/OurExperts": "/StoreHours"} onClick={() => setService("Custom Order")}>
         <div className={classes.rectangle7}></div>
         <ArrowRightLarge className={classes.arrowRightLarge2} />
       </Link>
